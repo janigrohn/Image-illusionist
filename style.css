@@ -1,0 +1,97 @@
+body {
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	background-image: url("images/LightBackground.png");
+	background-size: 100%;
+}
+
+#Logo {
+	height: 70px;
+	width: 70px;
+	margin-top: -23px;
+	margin-left: -18px;
+}
+
+#footer {
+	position: relative;
+	text-align: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.display-3 {
+	text-align: center;
+	font-family: 'Pinyon Script', cursive;
+	font-size: 800% !important;
+}
+
+.display-2 {
+	text-align: center;
+	font-family: 'Felipa', cursive;
+}
+
+p {
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: justify;
+}
+
+.row {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.lead {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#content {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+iframe {
+	margin: auto;
+	display: block;
+}
+
+#image {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+
+}
+.col-xs-6 {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#fullimagediv {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 85vh;
+	position: relative;
+}
+
+#arrows {
+	text-align: center;
+	font-size: 200%;
+}
+
+#arrow {
+	-moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}

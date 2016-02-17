@@ -1,3 +1,5 @@
+
+
 * {
  -webkit-transition: all 0.25s ease-out;
  -moz-transition: all 0.25s ease-out;
@@ -106,6 +108,10 @@ p {
   -ms-filter: "FlipH";
 }
 
+#Home {
+	margin-left: -15px;
+}
+
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
     background-color: #2e6da4;
     background-image: -webkit-linear-gradient(top,#CCC 0,#DDD 100%);
@@ -123,3 +129,22 @@ p {
     outline: 0;
 }
 
+@media screen and (max-width: 650px) {
+	#Home {
+	margin-left: 0px;
+}
+
+.display-3 {
+	text-align: center;
+	font-family: 'Pinyon Script', cursive;
+	font-size: 500% !important;
+}
+
+#footer {
+	text-align: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+}

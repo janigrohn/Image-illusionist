@@ -24,6 +24,7 @@ body {
 	text-align: right;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	opacity: 0.5;
 }
 
 .display-3 {
@@ -145,6 +146,7 @@ p {
 	margin-right: 20px;
 	margin-bottom: 20px;
 	font-size: 12px;
+	opacity: 0.5;
 }
 
 .lead {

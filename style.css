@@ -19,7 +19,6 @@ body {
 }
 
 #footer {
-	position: relative;
 	text-align: right;
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -64,9 +63,14 @@ p {
 	margin-right: auto;
 }
 
-iframe {
-	margin: auto;
-	display: block;
+.embed-responsive {
+	margin: 0 auto;
+	max-width: 630px;
+}
+
+.embed-responsive-item {
+	max-width: 630px;
+	max-height: 437px;
 }
 
 #image {
@@ -100,4 +104,21 @@ iframe {
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    background-color: #2e6da4;
+    background-image: -webkit-linear-gradient(top,#CCC 0,#DDD 100%);
+    background-image: -o-linear-gradient(top,#CCC 0,#DDD 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#CCC),to(#DDD));
+    background-image: linear-gradient(to bottom,#CCC 0,#DDD 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);
+    background-repeat: repeat-x;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #333;
+    text-decoration: none;
+    background-color: #337ab7;
+    outline: 0;
 }
